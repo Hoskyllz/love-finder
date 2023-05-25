@@ -106,6 +106,7 @@ nav{
 }
 #middd{
     justify-content: space-between;
+    border: 2px solid red;
 }
 .midd{
     text-align: center;
