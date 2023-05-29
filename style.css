@@ -153,6 +153,7 @@ border-radius: 10px;
     gap: 10px;
     width: 83px;
     height: 40px;
+    border: none;
  }
  #thirdlast{
     justify-content: space-evenly;
@@ -201,8 +202,6 @@ border-radius: 10px;
     border: none;
     position: relative;
     right: 170px;
-    
-    
  }
  .sub ::placeholder{
     color: #7C0B08;
@@ -251,8 +250,73 @@ border-radius: 10px;
    }
 
 
-@media(max-width: 500px){
+@media(max-width: 800px){
     #hero h1{
         font-size: 20px;
     }
+        #thirdpart select {
+            width: 100%;
+            height: 42px;
+
+        }
+    
+        #thirdpart input {
+            width: 100%;
+            height: 42px;
+
+    
+        }
+#middd{
+    row-gap: 30px;
+}
+#members{
+    row-gap: 30px;
+}
+#members2{
+    row-gap: 30px;
+}
+#thirdlast{
+    row-gap: 30px;
+}
+.move{
+
+}
+ .sub input {
+     width: 100%;
+    position: relative;
+    right: 70px;
+
+
+ }
+  .sub button {
+      width: 40%;
+      position: relative;
+      left: 30px;
+      margin-top: 20px;
+    
+
+  }
+   .footers {
+       background-color: #7C0B08;
+       height: 407px;
+       width: 100%;}
+       
+       #right{
+        position: relative;
+        right: 100px;
+       }
+ .butt {
+display: none;
+width: 50%;
+height: 20px;
+flex-direction: row;
+position: absolute;
+left: 100px;
+ top: 100%;}
+ #left{
+    justify-content: space-between;
+    gap: 20px;
+ }
+
+
 }
