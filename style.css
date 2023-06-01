@@ -269,10 +269,10 @@ border-radius: 10px;
             }
 #middd{
     row-gap: 30px;
-    width: 50%;
+    width: 70%;
     height: 50%;
     position: relative;
-    left: 25%;
+    left: 18%;
 }
 .midd{
         text-align: center;
@@ -304,11 +304,15 @@ border-radius: 10px;
 }
 #thirdlast{
     row-gap: 30px;
-    width: 50%;
+    width: 80%;
         height: 50%;
         position: relative;
-        left: 28%;
+        left: 15%;
         
+}
+.thirdlast2{
+    position: relative;
+    top: 20px;
 }
 
  .sub input {
