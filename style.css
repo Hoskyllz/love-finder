@@ -359,6 +359,11 @@ form button{
     position: relative;
     right: 50px;
 }
+#ori{
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
 
 
 }
