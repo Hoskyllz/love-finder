@@ -331,6 +331,7 @@ border-radius: 10px;
 
   }
    .footers {
+    display: block;
        background-color: #7C0B08;
        height: 407px;
        width: 100%;}
@@ -338,20 +339,34 @@ border-radius: 10px;
        #right{
         position: relative;
         right: 50px;
+        bottom: 100px;
+        padding-right: 10%;
+       }
+       .city{position: relative;
+    }
+       .socials{
+        margin-top: 30px;
        }
  .butt {
-display: none;
+    background-color: white;
+    color: #7C0B08;
+    padding-right: 40px;
+    text-align: center;
+    font-size: small;
+    font-weight: bold;
+
 width: 50%;
 height: 20px;
 flex-direction: row;
-position: absolute;
-left: 100px;
- top: 100%;}
+position: relative;
+}
  #left{
     justify-content: space-between;
     gap: 20px;
     position: relative;
-    margin-left: 30px;
+padding-right: 100%;
+    
+    top: 40%;
 
  }
 form button{
