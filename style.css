@@ -333,24 +333,31 @@ border-radius: 10px;
    .footers {
     display: block;
        background-color: #7C0B08;
-       height: 407px;
+       height: 100%;
        width: 100%;}
        
        #right{
         position: relative;
-        right: 50px;
+        right: 90px;
         bottom: 100px;
-        padding-right: 10%;
+        }
+       .get{
+        height: 30%;
+        position: relative;
+        
        }
+       
+       
        .city{position: relative;
     }
        .socials{
-        margin-top: 30px;
+        margin-top: 25px;
        }
  .butt {
+    
     background-color: white;
     color: #7C0B08;
-    padding-right: 40px;
+    padding-right: 20px;
     text-align: center;
     font-size: small;
     font-weight: bold;
@@ -361,14 +368,17 @@ flex-direction: row;
 position: relative;
 }
  #left{
-    justify-content: space-between;
-    gap: 20px;
+    gap: 10px;
+   position: relative;
+   right: 80px;
+   top: 80px;
+}
+#left h5{
+    font-size: smaller;
+    font-weight: lighter;
     position: relative;
-padding-right: 100%;
-    
-    top: 40%;
-
- }
+    right: 50px;
+}
 form button{
     margin-bottom: 20px;
     position: relative;
